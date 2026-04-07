@@ -1,0 +1,6 @@
+INFO - run_discriminator - Running command 'my_main'
+INFO - run_discriminator - Started run with ID "1"
+/home2/ayanroy/CDRL/COSTA/COSTA/nets/ensemble_linear.py:23: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  nn.init.kaiming_normal(self.weight)
+/home2/ayanroy/miniconda3/envs/p39/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))

@@ -1,0 +1,135 @@
+/var/spool/slurmd/job2601844/slurm_script: line 21: TORCH_USE_CUDA_DSA: command not found
+import module: non_mujoco_ant_dir
+import module: non_mujoco_point_robot
+import module: non_mujoco_half_cheetah_vel
+INFO - online_adaptation - Running command 'my_main'
+INFO - online_adaptation - Started run with ID "1"
+/home2/ayanroy/miniconda3/envs/p311/lib/python3.11/site-packages/gymnasium/spaces/box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home2/ayanroy/miniconda3/envs/p311/lib/python3.11/site-packages/gymnasium/spaces/box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: observation_space not found. Forcing initialization...
+WARNING: observation_space not found. Forcing initialization...
+WARNING: observation_space not found. Forcing initialization...
+{0: [np.float64(1448.633266461974), np.float64(213.22076063695755), np.float64(200.8935678044799), np.float64(1402.3465575078676), np.float64(183.21485814697417), np.float64(224.88006180334133), np.float64(1407.1088764968438), np.float64(194.2871700283235), np.float64(189.26246168209948), np.float64(1370.3290513779682)], 1: [np.float64(213.20182153503572), np.float64(820.0284947342997), np.float64(171.19261156895044), np.float64(238.22172817100605), np.float64(852.7274274344286), np.float64(163.71461627562775), np.float64(235.9882381933134), np.float64(876.5680326347342), np.float64(152.29966332387755), np.float64(229.42752240557775)], 2: [np.float64(276.73699611287935), np.float64(148.7360247359289), np.float64(967.3506790172805), np.float64(299.1738231603298), np.float64(154.6166307986317), np.float64(934.0957694151308), np.float64(482.2340418629388), np.float64(147.97198790342458), np.float64(885.6910830999708), np.float64(304.2907558492411)]} {0: [np.float64(0.0), np.float64(30.0), np.float64(30.0), np.float64(0.0), np.float64(30.0), np.float64(30.0), np.float64(0.0), np.float64(30.0), np.float64(30.0), np.float64(0.0)], 1: [np.float64(30.0), np.float64(25.0), np.float64(30.0), np.float64(30.0), np.float64(10.0), np.float64(30.0), np.float64(30.0), np.float64(11.0), np.float64(30.0), np.float64(30.0)], 2: [np.float64(30.0), np.float64(30.0), np.float64(30.0), np.float64(30.0), np.float64(30.0), np.float64(20.0), np.float64(30.0), np.float64(30.0), np.float64(9.0), np.float64(30.0)]}
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 0        |
+| eval/accumulated_cost1    | 30       |
+| eval/accumulated_cost2    | 30       |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 190      |
+| eval/episode_cost_mean2   | 184      |
+| eval/episode_reward_mean0 | 1.42e+03 |
+| eval/episode_reward_mean1 | 857      |
+| eval/episode_reward_mean2 | 859      |
+| timestep                  | 0        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 30       |
+| eval/accumulated_cost1    | 55       |
+| eval/accumulated_cost2    | 60       |
+| eval/episode_cost_mean0   | 0.2      |
+| eval/episode_cost_mean1   | 15.3     |
+| eval/episode_cost_mean2   | 189      |
+| eval/episode_reward_mean0 | 1.43e+03 |
+| eval/episode_reward_mean1 | 896      |
+| eval/episode_reward_mean2 | 859      |
+| timestep                  | 1        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 60       |
+| eval/accumulated_cost1    | 85       |
+| eval/accumulated_cost2    | 90       |
+| eval/episode_cost_mean0   | 1.9      |
+| eval/episode_cost_mean1   | 16.2     |
+| eval/episode_cost_mean2   | 17.7     |
+| eval/episode_reward_mean0 | 1.44e+03 |
+| eval/episode_reward_mean1 | 882      |
+| eval/episode_reward_mean2 | 879      |
+| timestep                  | 2        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 60       |
+| eval/accumulated_cost1    | 115      |
+| eval/accumulated_cost2    | 120      |
+| eval/episode_cost_mean0   | 2        |
+| eval/episode_cost_mean1   | 13       |
+| eval/episode_cost_mean2   | 18       |
+| eval/episode_reward_mean0 | 1.39e+03 |
+| eval/episode_reward_mean1 | 894      |
+| eval/episode_reward_mean2 | 923      |
+| timestep                  | 3        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 90       |
+| eval/accumulated_cost1    | 125      |
+| eval/accumulated_cost2    | 150      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 17.3     |
+| eval/episode_cost_mean2   | 14.2     |
+| eval/episode_reward_mean0 | 1.48e+03 |
+| eval/episode_reward_mean1 | 905      |
+| eval/episode_reward_mean2 | 895      |
+| timestep                  | 4        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 120      |
+| eval/accumulated_cost1    | 155      |
+| eval/accumulated_cost2    | 170      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 17       |
+| eval/episode_cost_mean2   | 15.5     |
+| eval/episode_reward_mean0 | 1.39e+03 |
+| eval/episode_reward_mean1 | 882      |
+| eval/episode_reward_mean2 | 911      |
+| timestep                  | 5        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 120      |
+| eval/accumulated_cost1    | 185      |
+| eval/accumulated_cost2    | 200      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 12.4     |
+| eval/episode_cost_mean2   | 14.3     |
+| eval/episode_reward_mean0 | 1.42e+03 |
+| eval/episode_reward_mean1 | 907      |
+| eval/episode_reward_mean2 | 880      |
+| timestep                  | 6        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 150      |
+| eval/accumulated_cost1    | 196      |
+| eval/accumulated_cost2    | 230      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 16.4     |
+| eval/episode_cost_mean2   | 12.2     |
+| eval/episode_reward_mean0 | 1.39e+03 |
+| eval/episode_reward_mean1 | 895      |
+| eval/episode_reward_mean2 | 899      |
+| timestep                  | 7        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 180      |
+| eval/accumulated_cost1    | 226      |
+| eval/accumulated_cost2    | 239      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 17.9     |
+| eval/episode_cost_mean2   | 13.8     |
+| eval/episode_reward_mean0 | 1.42e+03 |
+| eval/episode_reward_mean1 | 907      |
+| eval/episode_reward_mean2 | 861      |
+| timestep                  | 8        |
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+| eval/accumulated_cost0    | 180      |
+| eval/accumulated_cost1    | 256      |
+| eval/accumulated_cost2    | 269      |
+| eval/episode_cost_mean0   | 0        |
+| eval/episode_cost_mean1   | 11.3     |
+| eval/episode_cost_mean2   | 18.8     |
+| eval/episode_reward_mean0 | 1.42e+03 |
+| eval/episode_reward_mean1 | 888      |
+| eval/episode_reward_mean2 | 918      |
+| timestep                  | 9        |
+-------------------------------------------------------------------------
+INFO - online_adaptation - Completed after 0:02:41

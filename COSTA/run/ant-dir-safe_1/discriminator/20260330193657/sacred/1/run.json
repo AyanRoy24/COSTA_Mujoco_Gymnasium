@@ -1,0 +1,126 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home2/ayanroy/CDRL/COSTA/COSTA",
+    "dependencies": [
+      "numpy==1.26.4",
+      "sacred==0.8.7",
+      "tensorboardx==2.6.4",
+      "torch==1.13.1"
+    ],
+    "mainfile": "run_discriminator.py",
+    "name": "run_discriminator",
+    "repositories": [],
+    "sources": [
+      [
+        "buffer/OfflineSafeBuffer.py",
+        "_sources/OfflineSafeBuffer_92e631138b46cc457867c223dbd7b6ff.py"
+      ],
+      [
+        "buffer/__init__.py",
+        "_sources/__init___37b5692adabe9efe216e387e9913f39f.py"
+      ],
+      [
+        "modules/__init__.py",
+        "_sources/__init___7cb8ab6d3eeec4c17f4a6277d10b1664.py"
+      ],
+      [
+        "modules/discriminator_module.py",
+        "_sources/discriminator_module_a4b737f2e5601937a040a729cc037361.py"
+      ],
+      [
+        "nets/__init__.py",
+        "_sources/__init___7cb62c222b1bcc564c979b6f092441c4.py"
+      ],
+      [
+        "nets/decoder.py",
+        "_sources/decoder_cfba8981cee110eccb0735fcad5caab2.py"
+      ],
+      [
+        "nets/discriminator.py",
+        "_sources/discriminator_f9f1a4c8867018a51aee0eafdb5c6bc9.py"
+      ],
+      [
+        "nets/encoder.py",
+        "_sources/encoder_88883813d72da51c03f01381ca2c9151.py"
+      ],
+      [
+        "nets/ensemble_linear.py",
+        "_sources/ensemble_linear_ba0fa56356afb9817fa6410e73b2518d.py"
+      ],
+      [
+        "nets/mlp.py",
+        "_sources/mlp_79383d41371d2128f8c613ae7e305b52.py"
+      ],
+      [
+        "nets/rnn.py",
+        "_sources/rnn_1f00a7d9fd362e04dfb6418be0452fb7.py"
+      ],
+      [
+        "nets/vae.py",
+        "_sources/vae_83ee8e47ed793f1f603b2cacf82e89bb.py"
+      ],
+      [
+        "run_discriminator.py",
+        "_sources/run_discriminator_0303c43f1ec5373e8a4054cc2d9e412d.py"
+      ],
+      [
+        "train/discriminator_train.py",
+        "_sources/discriminator_train_19ece1ad28c65ca2b7162dad4296e0bf.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-04-02T13:47:41.816325",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+    "gpus": {
+      "driver_version": "570.195.03",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11264
+        }
+      ]
+    },
+    "hostname": "gnode058",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-161-generic-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.9.23"
+  },
+  "meta": {
+    "command": "my_main",
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-03-30T14:07:00.719846",
+  "status": "COMPLETED",
+  "stop_time": "2026-04-02T13:47:41.778379"
+}

@@ -1,0 +1,145 @@
+mean_eval_acc: fraction of correct predictions overall
+mean_eval_acc_safe: fraction correct among safe examples 
+mean_eval_acc_unsafe: fraction correct among unsafe examples 
+
+INFO - run_discriminator - Running command 'my_main'
+INFO - run_discriminator - Running command 'my_main'
+INFO - run_discriminator - Started run with ID "1"
+INFO - run_discriminator - Started run with ID "1"
+INFO - run_discriminator - Running command 'my_main'
+INFO - run_discriminator - Started run with ID "1"
+/home2/ayanroy/CDRL/COSTA/COSTA/nets/ensemble_linear.py:23: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  nn.init.kaiming_normal(self.weight)
+/home2/ayanroy/CDRL/COSTA/COSTA/nets/ensemble_linear.py:23: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  nn.init.kaiming_normal(self.weight)
+/home2/ayanroy/CDRL/COSTA/COSTA/nets/ensemble_linear.py:23: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  nn.init.kaiming_normal(self.weight)
+/home2/ayanroy/miniconda3/envs/p39/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home2/ayanroy/miniconda3/envs/p39/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home2/ayanroy/miniconda3/envs/p39/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+INFO - run_discriminator - Completed after 2 days, 23:40:41
+223082 201682 21400
+Trainging: epoch:1, mean_total_loss:1.46989,                 mean_eval_acc:0.94942, mean_eval_acc_safe:0.99061, mean_eval_acc_unsafe:0.68212
+228462 201755 26707
+Trainging: epoch:2, mean_total_loss:0.49230,                 mean_eval_acc:0.97232, mean_eval_acc_safe:0.99097, mean_eval_acc_unsafe:0.85127
+230044 202808 27236
+Trainging: epoch:3, mean_total_loss:0.35487,                 mean_eval_acc:0.97905, mean_eval_acc_safe:0.99614, mean_eval_acc_unsafe:0.86814
+230184 202794 27390
+Trainging: epoch:4, mean_total_loss:0.29398,                 mean_eval_acc:0.97964, mean_eval_acc_safe:0.99607, mean_eval_acc_unsafe:0.87304
+231780 202679 29101
+Trainging: epoch:5, mean_total_loss:0.26830,                 mean_eval_acc:0.98644, mean_eval_acc_safe:0.99551, mean_eval_acc_unsafe:0.92758
+230653 203162 27491
+Trainging: epoch:6, mean_total_loss:0.25058,                 mean_eval_acc:0.98164, mean_eval_acc_safe:0.99788, mean_eval_acc_unsafe:0.87626
+231736 202697 29039
+Trainging: epoch:7, mean_total_loss:0.23849,                 mean_eval_acc:0.98625, mean_eval_acc_safe:0.99559, mean_eval_acc_unsafe:0.92560
+232097 203075 29022
+Trainging: epoch:8, mean_total_loss:0.22752,                 mean_eval_acc:0.98779, mean_eval_acc_safe:0.99745, mean_eval_acc_unsafe:0.92506
+231355 203053 28302
+Trainging: epoch:9, mean_total_loss:0.21833,                 mean_eval_acc:0.98463, mean_eval_acc_safe:0.99734, mean_eval_acc_unsafe:0.90211
+232419 202317 30102
+Trainging: epoch:10, mean_total_loss:0.20733,                 mean_eval_acc:0.98916, mean_eval_acc_safe:0.99373, mean_eval_acc_unsafe:0.95949
+232922 202613 30309
+Trainging: epoch:11, mean_total_loss:0.20146,                 mean_eval_acc:0.99130, mean_eval_acc_safe:0.99518, mean_eval_acc_unsafe:0.96609
+232741 202134 30607
+Trainging: epoch:12, mean_total_loss:0.19494,                 mean_eval_acc:0.99053, mean_eval_acc_safe:0.99283, mean_eval_acc_unsafe:0.97558
+232292 202669 29623
+Trainging: epoch:13, mean_total_loss:0.18532,                 mean_eval_acc:0.98862, mean_eval_acc_safe:0.99546, mean_eval_acc_unsafe:0.94422
+232717 202613 30104
+Trainging: epoch:14, mean_total_loss:0.18349,                 mean_eval_acc:0.99042, mean_eval_acc_safe:0.99518, mean_eval_acc_unsafe:0.95955
+232762 202942 29820
+Trainging: epoch:15, mean_total_loss:0.17695,                 mean_eval_acc:0.99062, mean_eval_acc_safe:0.99680, mean_eval_acc_unsafe:0.95050
+232474 202783 29691
+Trainging: epoch:16, mean_total_loss:0.17334,                 mean_eval_acc:0.98939, mean_eval_acc_safe:0.99602, mean_eval_acc_unsafe:0.94639
+232523 203084 29439
+Trainging: epoch:17, mean_total_loss:0.17044,                 mean_eval_acc:0.98960, mean_eval_acc_safe:0.99750, mean_eval_acc_unsafe:0.93835
+232201 202593 29608
+Trainging: epoch:18, mean_total_loss:0.16753,                 mean_eval_acc:0.98823, mean_eval_acc_safe:0.99508, mean_eval_acc_unsafe:0.94374
+232742 202639 30103
+Trainging: epoch:19, mean_total_loss:0.16608,                 mean_eval_acc:0.99053, mean_eval_acc_safe:0.99531, mean_eval_acc_unsafe:0.95952
+233064 202653 30411
+Trainging: epoch:20, mean_total_loss:0.16240,                 mean_eval_acc:0.99190, mean_eval_acc_safe:0.99538, mean_eval_acc_unsafe:0.96934
+INFO - run_discriminator - Completed after 3 days, 1:28:44
+218567 199726 18841
+Trainging: epoch:1, mean_total_loss:1.64727,                 mean_eval_acc:0.92444, mean_eval_acc_safe:0.97942, mean_eval_acc_unsafe:0.57956
+228159 200914 27245
+Trainging: epoch:2, mean_total_loss:0.68040,                 mean_eval_acc:0.96501, mean_eval_acc_safe:0.98525, mean_eval_acc_unsafe:0.83808
+229905 202617 27288
+Trainging: epoch:3, mean_total_loss:0.44076,                 mean_eval_acc:0.97240, mean_eval_acc_safe:0.99360, mean_eval_acc_unsafe:0.83940
+230922 200744 30178
+Trainging: epoch:4, mean_total_loss:0.35349,                 mean_eval_acc:0.97670, mean_eval_acc_safe:0.98442, mean_eval_acc_unsafe:0.92830
+232244 202397 29847
+Trainging: epoch:5, mean_total_loss:0.30988,                 mean_eval_acc:0.98229, mean_eval_acc_safe:0.99252, mean_eval_acc_unsafe:0.91811
+230602 200950 29652
+Trainging: epoch:6, mean_total_loss:0.28188,                 mean_eval_acc:0.97535, mean_eval_acc_safe:0.98543, mean_eval_acc_unsafe:0.91212
+232324 201565 30759
+Trainging: epoch:7, mean_total_loss:0.26681,                 mean_eval_acc:0.98263, mean_eval_acc_safe:0.98844, mean_eval_acc_unsafe:0.94617
+233032 202383 30649
+Trainging: epoch:8, mean_total_loss:0.25306,                 mean_eval_acc:0.98562, mean_eval_acc_safe:0.99245, mean_eval_acc_unsafe:0.94279
+232616 203231 29385
+Trainging: epoch:9, mean_total_loss:0.24119,                 mean_eval_acc:0.98386, mean_eval_acc_safe:0.99661, mean_eval_acc_unsafe:0.90390
+232621 203265 29356
+Trainging: epoch:10, mean_total_loss:0.23199,                 mean_eval_acc:0.98389, mean_eval_acc_safe:0.99678, mean_eval_acc_unsafe:0.90301
+233367 203436 29931
+Trainging: epoch:11, mean_total_loss:0.22445,                 mean_eval_acc:0.98704, mean_eval_acc_safe:0.99762, mean_eval_acc_unsafe:0.92070
+233975 203140 30835
+Trainging: epoch:12, mean_total_loss:0.21761,                 mean_eval_acc:0.98961, mean_eval_acc_safe:0.99617, mean_eval_acc_unsafe:0.94851
+233551 202221 31330
+Trainging: epoch:13, mean_total_loss:0.21286,                 mean_eval_acc:0.98782, mean_eval_acc_safe:0.99166, mean_eval_acc_unsafe:0.96373
+233585 202353 31232
+Trainging: epoch:14, mean_total_loss:0.20743,                 mean_eval_acc:0.98796, mean_eval_acc_safe:0.99231, mean_eval_acc_unsafe:0.96072
+234251 203378 30873
+Trainging: epoch:15, mean_total_loss:0.20305,                 mean_eval_acc:0.99078, mean_eval_acc_safe:0.99733, mean_eval_acc_unsafe:0.94968
+233318 201938 31380
+Trainging: epoch:16, mean_total_loss:0.20058,                 mean_eval_acc:0.98683, mean_eval_acc_safe:0.99027, mean_eval_acc_unsafe:0.96527
+234348 202526 31822
+Trainging: epoch:17, mean_total_loss:0.19626,                 mean_eval_acc:0.99119, mean_eval_acc_safe:0.99315, mean_eval_acc_unsafe:0.97887
+233312 202459 30853
+Trainging: epoch:18, mean_total_loss:0.19392,                 mean_eval_acc:0.98681, mean_eval_acc_safe:0.99283, mean_eval_acc_unsafe:0.94906
+233641 202325 31316
+Trainging: epoch:19, mean_total_loss:0.19046,                 mean_eval_acc:0.98820, mean_eval_acc_safe:0.99217, mean_eval_acc_unsafe:0.96330
+233134 202005 31129
+Trainging: epoch:20, mean_total_loss:0.18723,                 mean_eval_acc:0.98606, mean_eval_acc_safe:0.99060, mean_eval_acc_unsafe:0.95755
+INFO - run_discriminator - Completed after 3 days, 1:29:46
+231954 221875 10079
+Trainging: epoch:1, mean_total_loss:0.28509,                 mean_eval_acc:0.99602, mean_eval_acc_safe:0.99909, mean_eval_acc_unsafe:0.93281
+232227 221755 10472
+Trainging: epoch:2, mean_total_loss:0.06938,                 mean_eval_acc:0.99719, mean_eval_acc_safe:0.99855, mean_eval_acc_unsafe:0.96918
+232141 221535 10606
+Trainging: epoch:3, mean_total_loss:0.05973,                 mean_eval_acc:0.99682, mean_eval_acc_safe:0.99756, mean_eval_acc_unsafe:0.98158
+232304 221811 10493
+Trainging: epoch:4, mean_total_loss:0.05323,                 mean_eval_acc:0.99752, mean_eval_acc_safe:0.99881, mean_eval_acc_unsafe:0.97112
+232331 221656 10675
+Trainging: epoch:5, mean_total_loss:0.05049,                 mean_eval_acc:0.99764, mean_eval_acc_safe:0.99811, mean_eval_acc_unsafe:0.98797
+232427 221797 10630
+Trainging: epoch:6, mean_total_loss:0.04843,                 mean_eval_acc:0.99805, mean_eval_acc_safe:0.99874, mean_eval_acc_unsafe:0.98380
+232348 221888 10460
+Trainging: epoch:7, mean_total_loss:0.04740,                 mean_eval_acc:0.99771, mean_eval_acc_safe:0.99915, mean_eval_acc_unsafe:0.96807
+232228 221699 10529
+Trainging: epoch:8, mean_total_loss:0.04539,                 mean_eval_acc:0.99720, mean_eval_acc_safe:0.99830, mean_eval_acc_unsafe:0.97446
+232445 221844 10601
+Trainging: epoch:9, mean_total_loss:0.04442,                 mean_eval_acc:0.99813, mean_eval_acc_safe:0.99896, mean_eval_acc_unsafe:0.98112
+232246 221734 10512
+Trainging: epoch:10, mean_total_loss:0.04505,                 mean_eval_acc:0.99727, mean_eval_acc_safe:0.99846, mean_eval_acc_unsafe:0.97288
+232439 221831 10608
+Trainging: epoch:11, mean_total_loss:0.04332,                 mean_eval_acc:0.99810, mean_eval_acc_safe:0.99890, mean_eval_acc_unsafe:0.98177
+232157 221438 10719
+Trainging: epoch:12, mean_total_loss:0.04338,                 mean_eval_acc:0.99689, mean_eval_acc_safe:0.99713, mean_eval_acc_unsafe:0.99204
+232398 221814 10584
+Trainging: epoch:13, mean_total_loss:0.04188,                 mean_eval_acc:0.99793, mean_eval_acc_safe:0.99882, mean_eval_acc_unsafe:0.97955
+232422 221959 10463
+Trainging: epoch:14, mean_total_loss:0.04068,                 mean_eval_acc:0.99803, mean_eval_acc_safe:0.99947, mean_eval_acc_unsafe:0.96835
+231949 221203 10746
+Trainging: epoch:15, mean_total_loss:0.04081,                 mean_eval_acc:0.99600, mean_eval_acc_safe:0.99607, mean_eval_acc_unsafe:0.99454
+232442 221863 10579
+Trainging: epoch:16, mean_total_loss:0.04093,                 mean_eval_acc:0.99811, mean_eval_acc_safe:0.99904, mean_eval_acc_unsafe:0.97908
+232456 221895 10561
+Trainging: epoch:17, mean_total_loss:0.03985,                 mean_eval_acc:0.99818, mean_eval_acc_safe:0.99918, mean_eval_acc_unsafe:0.97742
+232298 221788 10510
+Trainging: epoch:18, mean_total_loss:0.03966,                 mean_eval_acc:0.99750, mean_eval_acc_safe:0.99870, mean_eval_acc_unsafe:0.97270
+232310 221850 10460
+Trainging: epoch:19, mean_total_loss:0.03912,                 mean_eval_acc:0.99755, mean_eval_acc_safe:0.99898, mean_eval_acc_unsafe:0.96807
+232522 221919 10603
+Trainging: epoch:20, mean_total_loss:0.03835,                 mean_eval_acc:0.99846, mean_eval_acc_safe:0.99929, mean_eval_acc_unsafe:0.98130

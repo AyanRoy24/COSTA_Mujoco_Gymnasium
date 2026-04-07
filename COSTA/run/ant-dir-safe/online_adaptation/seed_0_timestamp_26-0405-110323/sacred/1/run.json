@@ -1,0 +1,161 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home2/ayanroy/CDRL/COSTA/COSTA",
+    "dependencies": [
+      "numpy==2.4.4",
+      "sacred==0.8.7",
+      "torch==2.11.0+cu128"
+    ],
+    "mainfile": "online_adaptation.py",
+    "name": "online_adaptation",
+    "repositories": [],
+    "sources": [
+      [
+        "buffer/OfflineSafeBuffer.py",
+        "_sources/OfflineSafeBuffer_92e631138b46cc457867c223dbd7b6ff.py"
+      ],
+      [
+        "buffer/__init__.py",
+        "_sources/__init___37b5692adabe9efe216e387e9913f39f.py"
+      ],
+      [
+        "model/vae_model.py",
+        "_sources/vae_model_cf14386d11c9623c9706b7adb81a847d.py"
+      ],
+      [
+        "modules/__init__.py",
+        "_sources/__init___7cb8ab6d3eeec4c17f4a6277d10b1664.py"
+      ],
+      [
+        "modules/actor_module.py",
+        "_sources/actor_module_06dbda5f7deb97e1835fa4c5c3a66161.py"
+      ],
+      [
+        "modules/critic_module.py",
+        "_sources/critic_module_5ec85669db3b3cbd2e796cd95757dc92.py"
+      ],
+      [
+        "modules/dist_module.py",
+        "_sources/dist_module_d6819705929042192128c94745654b34.py"
+      ],
+      [
+        "nets/__init__.py",
+        "_sources/__init___7cb62c222b1bcc564c979b6f092441c4.py"
+      ],
+      [
+        "nets/encoder.py",
+        "_sources/encoder_88883813d72da51c03f01381ca2c9151.py"
+      ],
+      [
+        "nets/mlp.py",
+        "_sources/mlp_79383d41371d2128f8c613ae7e305b52.py"
+      ],
+      [
+        "online_adaptation.py",
+        "_sources/online_adaptation_f72f3e0832399d95aea9568fddb761c2.py"
+      ],
+      [
+        "policy/__init__.py",
+        "_sources/__init___9b132748c913ed647f10873f8af4aedc.py"
+      ],
+      [
+        "policy/model_free/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "policy/model_free/meta_cpq.py",
+        "_sources/meta_cpq_7bbfd3ec9e9b37abd7a7c2a9e304243d.py"
+      ],
+      [
+        "policy_trainer/__init__.py",
+        "_sources/__init___a6c75ae4a66d0a4fbbab985718d5bf0a.py"
+      ],
+      [
+        "policy_trainer/mf_meta_safe_policy_trainer.py",
+        "_sources/mf_meta_safe_policy_trainer_711af36e9c9481114123bc4ff3a29d27.py"
+      ],
+      [
+        "rlkit/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "rlkit/envs/__init__.py",
+        "_sources/__init___d9fb6bf0757f5c03d8ac10439228852f.py"
+      ],
+      [
+        "rlkit/envs/ant_dir_safe.py",
+        "_sources/ant_dir_safe_7f232242fa6bb97598e249ff41577630.py"
+      ],
+      [
+        "rlkit/envs/wrappers.py",
+        "_sources/wrappers_46c5cba10470cf874fb00d5eceb96aae.py"
+      ],
+      [
+        "utils/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "utils/common.py",
+        "_sources/common_c246b5d3648b4e86f80b7319d1ce1ca0.py"
+      ],
+      [
+        "utils/logger.py",
+        "_sources/logger_c663c76d4b26108f12b49b9280ff779d.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-04-05T05:36:07.890648",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+    "gpus": {
+      "driver_version": "570.158.01",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11264
+        }
+      ]
+    },
+    "hostname": "gnode056",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-143-generic-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.11.15"
+  },
+  "meta": {
+    "command": "my_main",
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-04-05T05:33:26.761537",
+  "status": "COMPLETED",
+  "stop_time": "2026-04-05T05:36:07.888831"
+}

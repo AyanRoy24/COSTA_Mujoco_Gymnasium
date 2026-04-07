@@ -1,0 +1,4 @@
+INFO - run_vae - Running command 'my_main'
+INFO - run_vae - Started run with ID "1"
+/home2/ayanroy/CDRL/COSTA/COSTA/train/vae_train.py:39: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  testset = TensorDataset(torch.tensor(test_data["actions"], dtype=torch.float32), torch.tensor(test_data["observations"], dtype=torch.float32))

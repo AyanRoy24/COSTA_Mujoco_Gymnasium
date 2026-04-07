@@ -1,0 +1,90 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home2/ayanroy/CDRL/COSTA/COSTA",
+    "dependencies": [
+      "numpy==1.26.4",
+      "sacred==0.8.7",
+      "tensorboardx==2.6.4",
+      "torch==1.13.1"
+    ],
+    "mainfile": "run_vae.py",
+    "name": "run_vae",
+    "repositories": [],
+    "sources": [
+      [
+        "buffer/OfflineSafeBuffer.py",
+        "_sources/OfflineSafeBuffer_92e631138b46cc457867c223dbd7b6ff.py"
+      ],
+      [
+        "buffer/__init__.py",
+        "_sources/__init___37b5692adabe9efe216e387e9913f39f.py"
+      ],
+      [
+        "model/vae_model.py",
+        "_sources/vae_model_cf14386d11c9623c9706b7adb81a847d.py"
+      ],
+      [
+        "run_vae.py",
+        "_sources/run_vae_99a42af30f3b45920a6c663bae26903c.py"
+      ],
+      [
+        "train/vae_train.py",
+        "_sources/vae_train_e5bc1f0f0c60a02a0212228ca13f52b4.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-03-31T12:24:45.505576",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz",
+    "gpus": {
+      "driver_version": "570.133.20",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce GTX 1080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11264
+        }
+      ]
+    },
+    "hostname": "gnode012",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-139-generic-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.9.23"
+  },
+  "meta": {
+    "command": "my_main",
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-03-30T14:06:58.249137",
+  "status": "COMPLETED",
+  "stop_time": "2026-03-31T12:24:45.503397"
+}
